@@ -38,7 +38,7 @@ while test $# -gt 0; do
       ;;
     --version)
       echo 9.0.0
-# Its 2.10.4 but yeah
+# Its 2.10.4 but yeah, otherwise wont use freetype
       ;;
     --cflags)
       echo -I${prefix}/include/freetype2 -I${prefix}/include/freetype2/freetype
