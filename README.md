@@ -13,7 +13,10 @@ Still work in progress. If you want to help out, feel free to do!
 More about the original project here:
 
 https://evidence.sourceforge.net/
+
 https://sourceforge.net/projects/evidence/files/
 
 If you want to take a look for yourself:
-Im currently working with this source: https://sourceforge.net/projects/evidence/files/evidence%20source/0.9.8/evidence-0.9.8-20050905.src.rpm/download
+Im currently working with this code base from 2005: 
+
+https://sourceforge.net/projects/evidence/files/evidence%20source/0.9.8/evidence-0.9.8-20050905.src.rpm/download
