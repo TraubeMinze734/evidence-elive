@@ -1,3 +1,19 @@
+Assuming you are using Elive 3.8, you probably already have imlib2 installed for E16, so im skipping this libary.
+
+1. Install all the "-config" scripts to /usr/bin , these are needed for the build script.
+
+2. Extract the libarys archive, in there are the needed libarys (so far), the original sources for them can be obtained here:
+
+https://koji.fedoraproject.org/koji/
+
+https://download.enlightenment.org/__old/att/releases/
+
+A already changed some code of them.
+
+3. Create the directory /opt/evidence_libs for the libarys.
+
+4. Build and install the libarys & Evidence
+
 EINA:
 
 configure
@@ -39,10 +55,6 @@ dependency_libs=' -lpcre -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 
 
 Then restart make, and the build should finish
 
+Currently, the program segfaults on startup, probably related to Evas, since it works without it.
 
-
-
-ECORE (Broken?):
-
-./configure EINA_CFLAGS="-I/opt/evidence_libs/usr/local/include/eina-1 -I/opt/evidence_libs/usr/local/include/eina-1/eina -I/opt/evidence_libs/usr/local/include" EINA_LIBS="-L/opt/evidence_libs/usr/local/lib -leina" EVAS_CFLAGS="-I/opt/evidence_libs/usr/local/include" EVAS_LIBS="-L/opt/evidence_libs/usr/local/lib -levas" EET_CFLAGS="-I/opt/evidence_libs/usr/local/include" EET_LIBS="-L/opt/evidence_libs/usr/local/lib -leet"
-
+The ecore libary still has some build problems, but should not be needed to build. I add it as soon as possible.
