@@ -3,6 +3,8 @@ An attempt to get the Evidence (the Enlightened file-manager) for Enlightenment,
 
 All credits for this program go to Azundris and her contributors, im not the original Author.
 
+All credits for the libarys i used and modified, go to the Enlightenment team. https://www.enlightenment.org/about-efl.md
+
 This is not really a fork, since im not able to port the application to modern EFL.
 Im just trying to fix some code bits and creating workarounds to get the program to run.
 
