@@ -12,7 +12,9 @@ A already changed some code of them.
 
 3. Create the directory /opt/evidence_libs for the libarys.
 
-4. Build and install the libarys & Evidence
+4. Install Freetype-dev, curl-dev, doodle-dev, taglib-dev
+
+5. Build and install the libarys & Evidence
 
 EINA:
 
