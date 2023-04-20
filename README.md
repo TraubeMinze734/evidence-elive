@@ -8,7 +8,7 @@ All credits for the libarys i used and modified, go to the Enlightenment team. h
 This is not really a fork, since im not able to port the application to modern EFL.
 Im just trying to fix some code bits and creating workarounds to get the program to run.
 
-Still work in progress. If you want to help out, feel free to do!
+Still work in progress. Everything will be quiet messy. If you want to help out, feel free to do!
 
 More about the original project here:
 
